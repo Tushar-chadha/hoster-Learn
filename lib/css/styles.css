@@ -108,15 +108,7 @@ img {
 
 
 
-.btn-outline {
-    margin: 5px 0;
-    border: 1px solid whitesmoke;
-}
 
-.btn-primary {
-    color: whitesmoke;
-    background-color: var(--primary-color);
-}
 
 .btn:hover {
     transform: scale(0.95);
@@ -130,6 +122,10 @@ img {
     position: relative;
     top: 70px;
     z-index: 1;
+    width: 400px;
+    height: 350px;
+    padding: 40px;
+    
 }
 
 
@@ -155,11 +151,11 @@ img {
     background-color: white;
     position: absolute;
     content: '';
-    height: 100px;
-    bottom: -60px;
+    height: 120px;
+    bottom: -80px;
     left: 0;
     right: 0;
-    transform: skewY(-3deg);
+    transform: skewY(-4deg);
 }
 
 /* stats */
@@ -168,18 +164,19 @@ img {
 }
 
 .stats-heading {
-    
+    width: 500px;
+    margin: auto;
     margin-bottom: 50px;
 
 }
 
-.my-4 p {
+.stats .grid-3 p {
     color: var(--secondary-color);
     font-size: 20px;
     font-weight: bolder;
 }
 
-.my-4 h3 {
+.stats .grid-3 h3 {
     color: var(--dark-color);
     font-size: 35px;
     font-weight: bolder;
@@ -195,3 +192,87 @@ fas::before {
 
 }
 
+/* cli */
+
+.cli img {
+    grid-row: span 2;
+    grid-column: span 2;
+    width: 100%;
+}
+
+.cli .grid {
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.cli .card {
+    margin: auto;
+    width: 100%;
+}
+
+/* cloud */
+
+.cloud {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    padding: 10px;
+}
+
+
+
+.cloud .grid {
+    grid-template-columns: 5fr 4fr;
+}
+
+
+
+.cloud-text h2 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.cloud-text p {
+    font-size: 20px;
+    margin: 16px 0;
+}
+
+/* supported-language */
+
+.supported-Languages {
+    width: 100%;
+    position: relative;
+}
+
+.supported-Languages h2 {
+    font-size: 32px;
+}
+
+.sl-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.supported-Languages h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.supported-Languages .card:hover {
+    transform: translateY(-15px);
+    transition: transform 0.2s ease-in-out
+}
+
+/* footer */
+.footer .nav {
+    color: whitesmoke;
+}
+
+.footer a {
+    color: whitesmoke;
+}
+
+.social a {
+    margin: 0 10px;
+}

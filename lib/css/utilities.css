@@ -1,0 +1,164 @@
+:root {
+    --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+    --success-color: #5cb85c;
+    --error-color: #d9534f;
+}
+
+/*utilites*/
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    color: whitesmoke;
+    padding: 10px 30px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: end;
+    align-items: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0px auto;
+    overflow: auto;
+    padding: 0 40px;
+    height: 100%;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.btn-outline {
+    margin: 5px 0;
+    border: 1px solid whitesmoke;
+}
+
+.btn-primary {
+    color: whitesmoke;
+    background-color: var(--primary-color);
+}
+
+.btn-secondary {
+    color: whitesmoke;
+    background-color: var(--dark-color);
+}
+
+/* margin */
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 2rem 0;
+}
+
+.my-3 {
+    margin: 3rem 0;
+}
+
+.my-4 {
+    margin: 4rem 0;
+}
+
+.my-5 {
+    margin: 5rem 0;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+.m-2 {
+    margin: 2rem;
+}
+
+.m-3 {
+    margin: 3rem;
+}
+
+.m-4 {
+    margin: 4rem;
+}
+
+.m-5 {
+    margin: 5rem;
+}
+
+/* padding */
+
+.py-1 {
+    padding: 1rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+.py-4 {
+    padding: 4rem 0;
+}
+
+.py-5 {
+    padding: 5rem 0;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+.p-4 {
+    padding: 4rem;
+}
+
+.p-5 {
+    padding: 5rem;
+}
+
+/* colors */
+.bg-dark {
+    height: 100%;
+    background-color: var(--dark-color);
+    color: whitesmoke;
+}
