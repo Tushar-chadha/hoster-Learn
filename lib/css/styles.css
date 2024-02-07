@@ -292,20 +292,33 @@ fas::before {
 
 .feature-text h1 {
     font-size: 4rem;
-    
+
     margin: 10px 0;
 }
-.feature-text p{
+
+.feature-text p {
     font-size: 20px;
     margin: 10px 0;
 }
-.feature2{
+
+.feature2 {
     background-color: var(--light-color);
 }
-.feature2 img{
-    width:300px;
+
+.feature2 img {
+    width: 300px;
     justify-self: flex-end;
 }
-.feature2-text h2{
+
+.feature2-text h2 {
     font-size: 2rem;
-} 
+}
+
+.feature-grid i {
+    margin: 0 2rem;
+}
+
+.feature-grid .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
