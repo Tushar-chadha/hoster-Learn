@@ -10,7 +10,6 @@
 }
 
 /* main css */
-
 * {
     margin: 0;
     padding: 0;
@@ -73,8 +72,6 @@ img {
     margin: 0 5px;
 }
 
-
-
 .navbar ul {
     display: flex;
     justify-content: space-between;
@@ -106,10 +103,6 @@ img {
     margin: 20px 0;
 }
 
-
-
-
-
 .btn:hover {
     transform: scale(0.95);
 }
@@ -127,7 +120,6 @@ img {
     padding: 40px;
 
 }
-
 
 .showcase-form .form-control {
     margin: 30px 0;
@@ -189,11 +181,9 @@ fas::before {
 .fas {
     height: 40px;
     width: 40px;
-
 }
 
 /* cli */
-
 .cli img {
     grid-row: span 2;
     grid-column: span 2;
@@ -217,7 +207,6 @@ fas::before {
     background-color: var(--primary-color);
     color: whitesmoke;
     padding: 10px;
-
 }
 
 
@@ -267,9 +256,10 @@ fas::before {
 }
 
 /* footer */
-.footer{
+.footer {
     align-self: baseline;
 }
+
 .nav {
     color: whitesmoke;
 }
@@ -295,7 +285,6 @@ fas::before {
 
 .feature-text h1 {
     font-size: 4rem;
-
     margin: 10px 0;
 }
 
@@ -316,21 +305,54 @@ fas::before {
 .feature2-text h2 {
     font-size: 2rem;
 }
-.feature-grid .grid-3{
+
+.feature-grid .grid-3 {
     overflow: visible;
-    
 }
+
 .feature-grid i {
     margin: 2rem;
 }
 
-.feature-grid .card{
+.feature-grid .card {
     margin: 10px;
 }
 
-.feature-grid .grid> *:first-child{
+.feature-grid .grid>*:first-child {
     grid-column: span 3;
 }
-.feature-grid .grid> *:nth-child(2){
+
+.feature-grid .grid>*:nth-child(2) {
     grid-column: span 2;
+}
+
+/* doc */
+.info .navDoc li {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-bottom: 1px #ccc solid;
+    font-size: 17px;
+}
+
+.info .navDoc a:hover{
+    font-weight: 900;
+}
+.info .navigation {
+    width: 300px;
+    background-color: var(--light-color);
+}
+
+.info .container {
+    overflow: visible;
+}
+.navigation h3{
+    font-size: 22px;
+}
+
+.info .grid{
+    grid-template-columns: 1fr 2fr;
+}
+.docs-intro{
+    
 }

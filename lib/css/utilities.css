@@ -163,3 +163,17 @@
     background-color: var(--dark-color);
     color: whitesmoke;
 }
+
+.alert {
+    background-color: var(--light-color);
+    padding: 5px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
