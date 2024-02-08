@@ -267,6 +267,9 @@ fas::before {
 }
 
 /* footer */
+.footer{
+    align-self: baseline;
+}
 .nav {
     color: whitesmoke;
 }
@@ -313,12 +316,21 @@ fas::before {
 .feature2-text h2 {
     font-size: 2rem;
 }
-
+.feature-grid .grid-3{
+    overflow: visible;
+    
+}
 .feature-grid i {
-    margin: 0 2rem;
+    margin: 2rem;
 }
 
-.feature-grid .grid {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+.feature-grid .card{
+    margin: 10px;
+}
+
+.feature-grid .grid> *:first-child{
+    grid-column: span 3;
+}
+.feature-grid .grid> *:nth-child(2){
+    grid-column: span 2;
 }
