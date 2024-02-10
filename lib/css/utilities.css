@@ -1,10 +1,16 @@
 :root {
-    --primary-color: #0097a7; /* Blue */
-    --secondary-color: #005d68; /* Darker Blue */
-    --dark-color: #007e8b; /* Dark Blue */
-    --light-color: #e1f5fe; /* Light Blue */
-    --success-color: #4caf50; /* Green */
-    --error-color: #f44336; /* Red */
+    --primary-color: #0097a7;
+    /* Blue */
+    --secondary-color: #005d68;
+    /* Darker Blue */
+    --dark-color: #007e8b;
+    /* Dark Blue */
+    --light-color: #e1f5fe;
+    /* Light Blue */
+    --success-color: #4caf50;
+    /* Green */
+    --error-color: #f44336;
+    /* Red */
 }
 
 /*utilites*/
@@ -166,7 +172,8 @@
     color: whitesmoke;
 }
 
-.alert , .code{
+.alert,
+.code {
     padding: 10px 20px;
     font-weight: bold;
     margin: 15px 0;
@@ -174,7 +181,7 @@
     border-radius: 5px;
 }
 
-.alert{
+.alert {
     background-color: var(--light-color);
 }
 
@@ -182,71 +189,84 @@
     background-color: var(--success-color);
     color: #fff;
 }
-.code{
+
+.code {
     background-color: #333;
     color: #fff;
     font-family: monospace;
 }
 
 /* animations */
-@keyframes slideInFromRight{
-    0%{
+@keyframes slideInFromRight {
+    0% {
         transform: translateX(100%);
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateX(0%);
     }
 }
-@keyframes slideInFromLeft{
-    0%{
+
+@keyframes slideInFromLeft {
+    0% {
         transform: translateX(-100%);
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateX(0%);
     }
 }
-@keyframes slideInFrombottom{
-    0%{
+
+@keyframes slideInFrombottom {
+    0% {
         opacity: 0;
         transform: translateY(100%);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateY(0%);
     }
 }
-@keyframes slideInFromTop{
-    0%{
+
+@keyframes slideInFromTop {
+    0% {
         opacity: 0;
         transform: translateY(-100%);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateY(0%);
     }
 }
-.showcase-form{
+
+.showcase-form {
     animation: slideInFromRight ease-in 1s;
 }
-.showcase-text{
+
+.showcase-text {
     animation: slideInFromLeft ease-in 1s;
 }
-.stats{
+
+.stats {
     animation: slideInFrombottom ease-in 1s;
 }
 
-@media(max-width:768px){
-    .showcase-form{
+@media(max-width:768px) {
+    .showcase-form {
         animation: slideInFrombottom ease-in 1s;
     }
-    .showcase-text{
+
+    .showcase-text {
         animation: slideInFromTop ease-in 1s;
     }
-    .stats{
+
+    .stats {
         animation: slideInFrombottom ease-in 1s;
     }
 }
